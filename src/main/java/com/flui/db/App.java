@@ -9,12 +9,6 @@ import com.flui.db.Database.GraphDatabase;
 public class App{
 
     public static void main(String[] args){
-        System.out.println(
-            "this.is.a.string".substring(
-                "this.is.a.string".indexOf(".")+1
-            )
-        );
-        /*
         System.out.println("starting local server");
         GraphDatabase db = new GraphDatabase();
         int port = 5425;
@@ -24,6 +18,5 @@ public class App{
         } catch (IOException e) {
             e.printStackTrace();
         }
-        */
     }
 }
